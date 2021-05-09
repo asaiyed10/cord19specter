@@ -1,4 +1,78 @@
-## Goal: 
+Paper
+
+Direction 1: 
+
+Goal: Ltierature Clustering 
+-----------------------
+Why: Identify trends in research within CORD-19 dataset
+
+Methods: 
+-------------------
+1. CORD-19 Embedding 
+    produced form SPECTER
+
+2. PCA 
+    N_compents that give explain 90% of underlying variation 
+
+3. K-Mmeans
+    Pass PCA compnents into K-means for cluster labeling 
+    Determine K-Clusters by Silhoutte score
+
+4. Visualization: 
+    TSNE or UMAP on sample with Cluster assignments from K-MEANS
+    
+
+
+Direction 2: 
+
+Goal: Colloboration Graph
+-----------------------------
+Why: What are the shortest distances between colloborators? 
+
+Methods: 
+
+author|author| source_paper| source_journal 
+
+1. Create Co-authors graph 
+
+2. BFS vs DFS search for Shortest-PAth between two authors 
+
+
+
+Direction 3: 
+
+Goal: Community Detection on Citation Graph 
+--------------------------------
+1. Preprocess citations from documents into edges 
+
+author | citation | source_paper | cited_paper | source_journal| cited_journal| 
+
+
+http://graphframes.github.io/graphframes/docs/_site/api/python/graphframes.examples.html#graphframes.examples.BeliefPropagation
+
+
+
+
+Direction 4: 
+
+Goal: Text Analysis describing clusters or communities 
+
+Can we label each cluster or community? 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+> ## Goal: 
 
     Problem: Search most covid related publications for information 
 
