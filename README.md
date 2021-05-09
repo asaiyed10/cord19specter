@@ -12,10 +12,10 @@ Methods:
     produced form SPECTER
 
 2. PCA 
-    N_compents that give explain 90% of underlying variation 
+    n_components that give explain 90% of underlying variation 
 
 3. K-Mmeans
-    Pass PCA compnents into K-means for cluster labeling 
+    Pass PCA components into K-means for cluster labeling 
     Determine K-Clusters by Silhoutte score
 
 4. Visualization: 
