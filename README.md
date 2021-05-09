@@ -2,7 +2,7 @@ Paper
 
 # Direction 1: 
 
-Goal: Ltierature Clustering 
+Goal: Literature Clustering 
 -----------------------
 Why: Identify trends in research within CORD-19 dataset
 
