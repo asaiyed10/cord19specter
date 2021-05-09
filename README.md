@@ -1,5 +1,11 @@
 Paper
 
+# Exploratory Analysis 
+On metadata.csv -- perform exploratory analysis? 
+    How many documents exists? 
+    How many unique journals? 
+    Plots that show distribution
+
 # Direction 1: 
 
 Goal: Literature Clustering 
