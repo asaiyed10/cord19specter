@@ -16,6 +16,7 @@ Methods:
 
 3. K-Mmeans
     Pass PCA components into K-means for cluster labeling 
+    
     Determine K-Clusters by Silhoutte score
 
 4. Visualization: 
