@@ -1,6 +1,6 @@
 Paper
 
-Direction 1: 
+# Direction 1: 
 
 Goal: Ltierature Clustering 
 -----------------------
@@ -21,9 +21,12 @@ Methods:
 4. Visualization: 
     TSNE or UMAP on sample with Cluster assignments from K-MEANS
     
+5. Text Analysis describing clusters
+   Can we label each cluster? 
+    
 
 
-Direction 2: 
+# Direction 2: 
 
 Goal: Colloboration Graph
 -----------------------------
@@ -39,7 +42,7 @@ author|author| source_paper| source_journal
 
 
 
-Direction 3: 
+# Direction 3: 
 
 Goal: Community Detection on Citation Graph 
 --------------------------------
@@ -49,20 +52,6 @@ author | citation | source_paper | cited_paper | source_journal| cited_journal|
 
 
 http://graphframes.github.io/graphframes/docs/_site/api/python/graphframes.examples.html#graphframes.examples.BeliefPropagation
-
-
-
-
-Direction 4: 
-
-Goal: Text Analysis describing clusters or communities 
-
-Can we label each cluster or community? 
-
-
-
-
-
 
 
 
