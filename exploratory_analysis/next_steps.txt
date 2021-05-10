@@ -1,0 +1,18 @@
+Whats left to do...............
+
+
+Text analysis of clusters
+
+Graph + Sample using 3rd party package 
+
+Silhoutte score across K plots determine ideal # of clusters ----> Produce TSNE of multiple samples at stage
+
+UMAP on larger than sample.... 
+
+
+
+
+
+
+
+
