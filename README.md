@@ -1,10 +1,83 @@
-Paper
+# Identifying Research Trends with Literature Clustering of CORD-19 Specter Embeddings
+### Authors: Ahson Saiyed Christle Iroezi
+
+## Table of Contents
+
+
+Clustering
+-------------------
+1. CORD-19 Embedding 
+    produced form SPECTER
+2. PCA n_components that give explain 90% of underlying variation
+    
+    > [exploratory_analysis/read_EMBEDDING_PCA_KMEANS_clean.ipynb](exploratory_analysis/read_EMBEDDING_PCA_KMEANS_clean.ipynb)
+    
+2. KMeans + Silhoutte Score + TSNE
+
+    >[exploratory_analysis/kmeans_TSNE_sample_silhoutte_30_kmeans.ipynb](exploratory_analysis/kmeans_TSNE_sample_silhoutte_30_kmeans.ipynb)
+
+3. Text Analysis of Cluster
+    > [exploratory_analysis/kmeans_cluster_text_analysis_cluster_8.ipynb](exploratory_analysis/kmeans_cluster_text_analysis_cluster_8.ipynb)
+    
+    > [exploratory_analysis/kmeans_cluster_text_analysis_cluster_12.ipynb](exploratory_analysis/kmeans_cluster_text_analysis_cluster_12.ipynb)
+    
+    > [exploratory_analysis/kmeans_cluster_text_analysis_cluster_10.ipynb](exploratory_analysis/kmeans_cluster_text_analysis_cluster_10.ipynb)
+
+
+
+
+
+Clustering Experimental
+--------------
+1. UMAP + HDBSCAN
+    > [exploratory_analysis/other_instance/umap.ipynb](exploratory_analysis/other_instance/umap.ipynb)
+
+    
+    
+    
+
+
+
+Graphs
+--------------------
+1. Co-authorship Edgelist
+
+    > [exploratory_analysis/build_graphs/build_coauthorship_edgelist.ipynb](exploratory_analysis/build_graphs/build_coauthorship_edgelist.ipynb)
+
+
+2. Citation Edgelist 
+
+    Preprocessing of raw document_parses citation data from pmc.json files , and create edgelist; upload to s3
+
+    > [exploratory_analysis/other_instance/parse_documents_citations_clean.ipynb](exploratory_analysis/other_instance/parse_documents_citations_clean.ipynb)
+    
+    Pull edgelist from s3 for downstream tasks
+    
+    > [exploratory_analysis/build_graphs/build_citation_graph](exploratory_analysis/build_graphs/build_citation_graph.ipynb)
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------
+-------------------------------------------------
 
 # Exploratory Analysis 
 On metadata.csv -- perform exploratory analysis? 
     How many documents exists? 
     How many unique journals? 
     Plots that show distribution
+
+# Motivation: 
 
 # Direction 1: 
 
@@ -29,6 +102,7 @@ Methods:
     TSNE or UMAP on sample with Cluster assignments from K-MEANS
     
 5. Text Analysis describing clusters
+
    Can we label each cluster? 
     
 
