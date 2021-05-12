@@ -54,6 +54,14 @@ Graphs
     Pull edgelist from s3 for downstream tasks
     
     > [exploratory_analysis/build_graphs/build_citation_graph](exploratory_analysis/build_graphs/build_citation_graph.ipynb)
+    
+    
+S3 Data Access 
+---------------
+1. Temp download/upload
+    > [exploratory_analysis/other_instance/temp_download_reupload](exploratory_analysis/other_instance/temp_download_reupload.ipynb)
+    
+    
 
     
 
